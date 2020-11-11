@@ -8,7 +8,7 @@ import { BrowserRouter, Route, Router, Link, Switch, withRouter } from "react-ro
 
 import Work from './components/work.js';
 import Open from './components/open.js';
-import NavBar from './components/navbar';
+import Navbar from './components/navbar.js';
 import aboutChat from './components/aboutChat.js';
 
 import Chat from './components/chat.js';

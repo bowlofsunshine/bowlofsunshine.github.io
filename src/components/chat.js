@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import { BrowserRouter, Route, Router, Link, NavLink, Switch } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import Work from './work.js';
-import Navbar from './navbar';
+import Navbar from './navbar.js';
 import Gitcat from '../images/github.png';
 import Chat1 from '../images/chatapp1.png';
 import Chat2 from '../images/chatapp2.png';
