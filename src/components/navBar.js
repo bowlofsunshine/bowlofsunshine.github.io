@@ -27,15 +27,15 @@ class Navbar extends Component {
 
     render() {
         return (
-            <div className="Navbar">
+            <div className="navbar">
 
                 <div
-                    className={`Navbar__background ${this.state.navShow &&
-                        "Navbar__background--show"}`}
+                    className={`navbar-background ${this.state.navShow &&
+                        "navbar-background--show"}`}
                 ></div>
                 <button
                     className={`hamburger hamburger--slider ${this.state.navShow &&
-                        "is-active"} Navbar__toggler`}
+                        "is-active"} navbar-toggler`}
                     type="button"
                     aria-label="Menu"
                     aria-controls="navigation"
@@ -47,21 +47,21 @@ class Navbar extends Component {
                 </button>
 
                 <div
-                    className={`Navbar__links ${this.state.navShow &&
-                        "Navbar__links--show"}`}
+                    className={`navbar-links ${this.state.navShow &&
+                        "navbar-links--show"}`}
                 >
                     <ListGroup className="ol">
                         <ListGroup.Item>
-                            <NavLink to="/work" className="li allLinks" onClick={this.handleToggleClick}>projects</NavLink>
+                            <NavLink to="/work" className="li all-links" onClick={this.handleToggleClick}>projects</NavLink>
                         </ListGroup.Item>
                         <ListGroup.Item>
-                            <NavLink to="/about" className="li allLinks" onClick={this.handleToggleClick}>about</NavLink>
+                            <NavLink to="/about" className="li all-links" onClick={this.handleToggleClick}>about</NavLink>
                         </ListGroup.Item>
                         <ListGroup.Item>
-                            <NavLink to="/contact" className="li allLinks" onClick={this.handleToggleClick}>contact</NavLink>
+                            <NavLink to="/contact" className="li all-links" onClick={this.handleToggleClick}>contact</NavLink>
                         </ListGroup.Item>
                         <ListGroup.Item>
-                            <NavLink to={{ pathname: "https://www.github.com" }} className="li allLinks" target="_blank" onClick={this.handleToggleClick}>github</NavLink>
+                            <NavLink to={{ pathname: "https://www.github.com" }} className="li all-links" target="_blank" onClick={this.handleToggleClick}>github</NavLink>
                         </ListGroup.Item>
                     </ListGroup>
                 </div>

@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import { BrowserRouter, Route, Router, Link, NavLink, Switch } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import Work from './work.js';
-import Navbar from './navBar';
+import Navbar from './navbar';
 
 
 export class aboutChat extends React.Component {
@@ -15,7 +15,7 @@ export class aboutChat extends React.Component {
 
             <div >
                 <Navbar />
-                <NavLink className="allLinks" activeClassName="activeRoute" to={`/`}>
+                <NavLink className="all-links" activeClassName="active-route" to={`/`}>
                     <div className="about" >
                         <h3 className="about-header">hello, yes, I am rachel and am a software developer residing in Berlin, Germany
                         (and yes i am looking for a job or freelance oppurtunities)

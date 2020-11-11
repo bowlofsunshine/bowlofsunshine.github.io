@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Router, Link, NavLink, Switch } from "react-route
 import { Container } from 'react-bootstrap';
 import { useHistory } from 'react-router-dom';
 import Work from './work.js';
-import Navbar from './navBar';
+import Navbar from './navbar';
 import Gitcat from '../images/github.png';
 import TodoFoto from '../images/todo.png';
 
@@ -17,7 +17,7 @@ export class Todo extends React.Component {
 
             <div >
                 <Navbar />
-                <NavLink className="allLinks" activeClassName="activeRoute" to={`/`}>
+                <NavLink className="all-links" activeClassName="active-route" to={`/`}>
                     <div className="todo">
                         <h3 className="todo-header">Todo List</h3>
                         <p className="todo-para">Vue todo app with draggable tasks and client side storage. It uses Vue.js and Material
@@ -28,10 +28,10 @@ export class Todo extends React.Component {
 Material Design UI</p></div>
 
                 </NavLink>
-                <NavLink className="allLinks link" activeClassName="activeLink" to={{ pathname: "https://vuetodo1226.herokuapp.com/" }} target="_blank"><div>
+                <NavLink className="all-links link" activeClassName="active-link" to={{ pathname: "https://vuetodo1226.herokuapp.com/" }} target="_blank"><div>
                 </div></NavLink>
                 <div className="git-cat">
-                    <NavLink className="links" activeClassName="activeLink" to={{ pathname: "https://github.com/bowlofsunshine/todo" }} target="_blank"><img className="img-responsive" src={Gitcat} alt="logo" />
+                    <NavLink className="links" activeClassName="active-link" to={{ pathname: "https://github.com/bowlofsunshine/todo" }} target="_blank"><img className="img-responsive" src={Gitcat} alt="logo" />
                     </NavLink></div>
                 <img className="todo-foto" src={TodoFoto} alt="todo foto" />
 

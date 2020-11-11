@@ -4,19 +4,19 @@ import Button from 'react-bootstrap/Button'
 import { BrowserRouter, Route, Router, Link, NavLink, Switch } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import Work from './work.js';
-import Navbar from './navBar';
+import Navbar from './navbar';
 
 export class Visa extends React.Component {
     render() {
         return (
             <div>
                 <Navbar />
-                <NavLink className="allLinks" activeClassName="activeRoute" to={`/`}>
+                <NavLink className="all-links" activeClassName="active-route" to={`/`}>
                     <div className="visa">
                         <h3 className="visa-header">Visa 101</h3>
                         <p className="visa-para">A work in progress creating a free site to help people in Berlin navigate teh visa
                     prosess.</p>
-                        {/* <NavLink className="allLinks link" activeClassName="activeLink" to="/meet"><div>
+                        {/* <NavLink className="all-links link" activeClassName="activeLink" to="/meet"><div>
                         </div></NavLink> */}
                     </div>
                 </NavLink>

@@ -9,7 +9,7 @@ import Open from './open.js';
 import Meetup from './meet.js';
 import App from '../App.js';
 import Contact from './contact.js';
-import Navbar from './navBar';
+import Navbar from './navbar';
 
 import Ripples from 'react-ripples'
 
@@ -18,41 +18,41 @@ export class Work extends React.Component {
 
     render() {
         return (
-            <div className="workContainer">
+            <div className="work-container">
                 <header className="name-header black-name" id="rachel">
                     Projects
                 </header>
                 <Navbar />
-                <div className="bodyWork">
+                <div className="body-work">
                     <header className="App-header">
                         <p>    Hey, my name is Rachel</p>
                     </header>
 
-                    <Link to="/chat"><div className="chat-body"><div className="chatTitle">Chat</div>
+                    <Link to="/chat"><div className="chat-body"><div className="chat-title">Chat</div>
                     </div></Link>
 
-                    <Link to="/meet"><div className="meetBody"><p className="meetTitle">Meetup App</p>
+                    <Link to="/meet"><div className="meet-body"><p className="meet-title">Meetup App</p>
                     </div></Link>
 
-                    <Link to="/pokedex"><div className="pokeBody"><p className="pokeTitle">Pokedex</p>
+                    <Link to="/pokedex"><div className="poke-body"><p className="poke-title">Pokedex</p>
                     </div></Link>
 
-                    <Link to="/netty"><div className="netBody"><p className="netTitle">Where in the World</p>
+                    <Link to="/netty"><div className="net-body"><p className="net-title">Where in the World</p>
                     </div></Link>
 
-                    <Link to="/caf"><div className="cafBody"><p className="cafTitle">Cotati Accordion Festival</p>
+                    <Link to="/caf"><div className="caf-body"><p className="caf-title">Cotati Accordion Festival</p>
                     </div></Link>
 
-                    <Link to="/visa"><div className="visaBody"><p className="visaTitle">Visa 101</p>
+                    <Link to="/visa"><div className="visa-body"><p className="visa-title">Visa 101</p>
                     </div></Link>
 
-                    <Link to="/todo"><div className="todoBody"><p className="todoTitle">Todo</p>
+                    <Link to="/todo"><div className="todo-body"><p className="todo-title">Todo</p>
                     </div></Link>
 
-                    <Link to="/quiz"><div className="quizBody"><p className="quizTitle">Quick Quiz App</p>
+                    <Link to="/quiz"><div className="quiz-body"><p className="quiz-title">Quick Quiz App</p>
                     </div></Link>
 
-                    <Link to="/myflix"><div className="flixBody"><p className="flixTitle">My Flix</p>
+                    <Link to="/myflix"><div className="flix-body"><p className="flix-title">My Flix</p>
                     </div></Link>
 
                 </div>

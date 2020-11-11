@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import { BrowserRouter, Route, Router, Link, NavLink, Switch } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import Work from './work.js';
-import Navbar from './navBar';
+import Navbar from './navbar';
 import Gitcat from '../images/github.png';
 import Chat1 from '../images/chatapp1.png';
 import Chat2 from '../images/chatapp2.png';
@@ -14,11 +14,11 @@ export class Chat extends React.Component {
         return (
             <div >
                 <Navbar />
-                <NavLink className="allLinks" activeClassName="activeRoute" to={`/`}>
+                <NavLink className="all-links" activeClassName="activeRoute" to={`/`}>
                     <div className="chat" >
                         <h3 className="chat-header">Chat App</h3>
                         <p className="chat-para">React Native Chat App for IOS/Android where you can send messages, photos and share your location with others.</p>
-                        <NavLink className="allLinks link" activeClassName="activeLink" to="/meet"><div>
+                        <NavLink className="all-links link" activeClassName="activeLink" to="/meet"><div>
                         </div></NavLink>
                     </div>
                     <div className="skills"><p>

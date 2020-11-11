@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import { BrowserRouter, Route, Router, Link, NavLink, Switch } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import Work from './work.js';
-import Navbar from './navBar';
+import Navbar from './navbar';
 import Gitcat from '../images/github.png';
 import Pokefoto from '../images/pokedex.png'
 
@@ -13,7 +13,7 @@ export class Pokedex extends React.Component {
         return (
             <div>
                 <Navbar />
-                <NavLink className="allLinks" activeClassName="activeRoute" to={`/`}>
+                <NavLink className="all-links" activeClassName="active-route" to={`/`}>
                     <div className="pokedex">
                         <h3 className="poke-header">
                             Pokedex
@@ -26,9 +26,9 @@ export class Pokedex extends React.Component {
                         JQuery <br></br>
 Bootstrap</p></div>
                 </NavLink>
-                <NavLink className="allLinks link" activeClassName="activeLink" to={{ pathname: "https://bowlofsunshine.github.io/pokemon-jquery/" }} target="_blank"><div></div></NavLink>
+                <NavLink className="all-links link" activeClassName="active-link" to={{ pathname: "https://bowlofsunshine.github.io/pokemon-jquery/" }} target="_blank"><div></div></NavLink>
                 <div className="git-cat">
-                    <NavLink className="links" activeClassName="activeLink" to={{ pathname: "https://github.com/bowlofsunshine/pokemon-jquery" }} target="_blank"><img className="img-responsive" src={Gitcat} alt="logo" />
+                    <NavLink className="links" activeClassName="active-link" to={{ pathname: "https://github.com/bowlofsunshine/pokemon-jquery" }} target="_blank"><img className="img-responsive" src={Gitcat} alt="logo" />
                     </NavLink></div>
                 <img className="poke-foto" src={Pokefoto} alt="poxedex foto" />
             </div>

@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import { BrowserRouter, Route, Router, Link, NavLink, Switch } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import Work from './work.js';
-import Navbar from './navBar.js';
+import Navbar from './navbar.js';
 import Gitcat from '../images/github.png';
 import Meet from '../images/meetup.png'
 export class Meetup extends React.Component {
@@ -12,7 +12,7 @@ export class Meetup extends React.Component {
         return (
             <div>
                 <Navbar />
-                <NavLink className="allLinks" activeClassName="activeRoute" to={`/`}>
+                <NavLink className="all-links" activeClassName="active-route" to={`/`}>
                     <div className="meetup">
                         <h3 className="meet-header">A Meetup App</h3>
                         <p className="meet-para">A mock Meetup serverless, progressive web application with React using a test-driven development. The application uses the Google Calendar API to fetch upcoming events.</p>
@@ -23,10 +23,10 @@ export class Meetup extends React.Component {
                         AWS <br></br>
                         Bootstrap</p></div>
                 </NavLink>
-                <NavLink className="allLinks link" activeClassName="activeLink" to={{ pathname: "http://bowlofsunshine.github.io/meetup" }} target="_blank"><div>
+                <NavLink className="all-links link" activeClassName="active-link" to={{ pathname: "http://bowlofsunshine.github.io/meetup" }} target="_blank"><div>
                 </div></NavLink>
                 <div className="git-cat">
-                    <NavLink className="links" activeClassName="activeLink" to={{ pathname: "https://github.com/bowlofsunshine/meetup" }} target="_blank"><img className="img-responsive" src={Gitcat} alt="logo" />
+                    <NavLink className="links" activeClassName="active-link" to={{ pathname: "https://github.com/bowlofsunshine/meetup" }} target="_blank"><img className="img-responsive" src={Gitcat} alt="logo" />
                     </NavLink></div>
                 <img className="meet-foto" src={Meet} alt="meetup" />
             </div >

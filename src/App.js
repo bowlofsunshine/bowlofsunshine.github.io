@@ -8,7 +8,7 @@ import { BrowserRouter, Route, Router, Link, Switch, withRouter } from "react-ro
 
 import Work from './components/work.js';
 import Open from './components/open.js';
-import NavBar from './components/navBar';
+import NavBar from './components/navbar';
 import aboutChat from './components/aboutChat.js';
 
 import Chat from './components/chat.js';
@@ -65,7 +65,7 @@ class App extends React.Component {
                 <Route path="/todo" component={Todo} />
                 <Route path="/visa" component={Visa} />
                 <div>
-                  <Container className="nameContainer" onClick={() => this.setState({ showing: !showing })} />
+                  <Container className="name-container" onClick={() => this.setState({ showing: !showing })} />
                   {showing
                     ? <Work /> : <Open />}
                 </div>
