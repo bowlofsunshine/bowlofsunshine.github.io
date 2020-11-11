@@ -17,8 +17,9 @@ export class aboutChat extends React.Component {
                 <Navbar />
                 <NavLink className="all-links" activeClassName="active-route" to={`/`}>
                     <div className="about" >
-                        <h3 className="about-header">hello, yes, I am rachel and am a software developer residing in Berlin, Germany
-                        (and yes i am looking for a job or freelance oppurtunities)
+                        <h3 className="about-header">
+                            hello, yes, I am rachel and am a software developer residing in Berlin, Germany
+                            (and yes i am looking for a job or freelance oppurtunities)
                         </h3>
                         <p className="about-hmm">hmmmmmmmmmmmm</p>
                         <p className="about-got">I got skills</p>

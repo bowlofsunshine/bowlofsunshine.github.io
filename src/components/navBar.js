@@ -13,7 +13,6 @@ class Navbar extends Component {
             navShow: false,
             black: true
         };
-
         this.handleToggleClick = this.handleToggleClick.bind(this);
     }
 
@@ -21,7 +20,6 @@ class Navbar extends Component {
         this.setState(state => {
             return { navShow: !state.navShow };
         });
-
     }
 
 
@@ -29,27 +27,20 @@ class Navbar extends Component {
         return (
             <div className="navbar">
 
-                <div
-                    className={`navbar-background ${this.state.navShow &&
-                        "navbar-background--show"}`}
-                ></div>
+                <div className={`navbar-background ${this.state.navShow && "navbar-background--show"}`}></div>
                 <button
-                    className={`hamburger hamburger--slider ${this.state.navShow &&
-                        "is-active"} navbar-toggler`}
+                    className={`hamburger hamburger--slider ${this.state.navShow && "is-active"} navbar-toggler`}
                     type="button"
                     aria-label="Menu"
                     aria-controls="navigation"
-                    onClick={this.handleToggleClick}
-                >
+                    onClick={this.handleToggleClick}>
+
                     <span className="hamburger-box">
                         <span className="hamburger-inner makewhite"></span>
                     </span>
                 </button>
 
-                <div
-                    className={`navbar-links ${this.state.navShow &&
-                        "navbar-links--show"}`}
-                >
+                <div className={`navbar-links ${this.state.navShow && "navbar-links--show"}`}>
                     <ListGroup className="ol">
                         <ListGroup.Item>
                             <NavLink to="/work" className="li all-links" onClick={this.handleToggleClick}>projects</NavLink>

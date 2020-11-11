@@ -21,15 +21,15 @@ export class Meetup extends React.Component {
                         ReactJS <br></br>
                         Jest &amp; Enzyme <br></br>
                         AWS <br></br>
-                        Bootstrap</p></div>
+                        Bootstrap</p>
+                    </div>
                 </NavLink>
-                <NavLink className="all-links link" activeClassName="active-link" to={{ pathname: "http://bowlofsunshine.github.io/meetup" }} target="_blank"><div>
-                </div></NavLink>
+                <NavLink className="all-links link" activeClassName="active-link" to={{ pathname: "http://bowlofsunshine.github.io/meetup" }} target="_blank"><div></div></NavLink>
                 <div className="git-cat">
-                    <NavLink className="links" activeClassName="active-link" to={{ pathname: "https://github.com/bowlofsunshine/meetup" }} target="_blank"><img className="img-responsive" src={Gitcat} alt="logo" />
-                    </NavLink></div>
+                    <NavLink className="links" activeClassName="active-link" to={{ pathname: "https://github.com/bowlofsunshine/meetup" }} target="_blank"><img className="img-responsive" src={Gitcat} alt="logo" /></NavLink>
+                </div>
                 <img className="meet-foto" src={Meet} alt="meetup" />
-            </div >
+            </div>
         )
     }
 }

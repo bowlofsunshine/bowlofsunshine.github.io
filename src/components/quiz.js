@@ -23,13 +23,13 @@ export class Quiz extends React.Component {
                         React Native <br></br>
                         Firestore Database <br></br>
                         Firebase <br></br>
-                            GiftedChat</p></div>
+                        GiftedChat</p>
+                    </div>
                 </NavLink>
-                <NavLink className="all-links link" activeClassName="active-link" to={{ pathname: "https://bowlofsunshine.github.io/my-awesome-quiz-app/" }} target="_blank"><div>
-                </div></NavLink>
+                <NavLink className="all-links link" activeClassName="active-link" to={{ pathname: "https://bowlofsunshine.github.io/my-awesome-quiz-app/" }} target="_blank"><div></div></NavLink>
                 <div className="git-cat">
-                    <NavLink className="links" activeClassName="active-link" to={{ pathname: "https://github.com/bowlofsunshine/my-awesome-quiz-app" }} target="_blank"><img className="img-responsive" src={Gitcat} alt="logo" />
-                    </NavLink></div>
+                    <NavLink className="links" activeClassName="active-link" to={{ pathname: "https://github.com/bowlofsunshine/my-awesome-quiz-app" }} target="_blank"><img className="img-responsive" src={Gitcat} alt="logo" /></NavLink>
+                </div>
                 <img className="quiz1" src={Quiz1} alt="quiz foto" />
                 <img className="quiz2" src={Quiz2} alt="quiz foto" />
             </div>

@@ -10,7 +10,6 @@ export class Open extends React.Component {
             <header className="App-header">
                 <p>    Hey, my name is Rachel</p>
             </header>
-
         )
     }
 }

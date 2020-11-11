@@ -23,13 +23,13 @@ export class Myflix extends React.Component {
                         React <br></br>
                         MongoDB <br></br>
                         Express <br></br>
-                        NodeJS</p></div>
+                        NodeJS</p>
+                    </div>
                 </NavLink>
-                <NavLink className="all-links link" activeClassName="active-link" to={{ pathname: "https://myflixyappy1226.herokuapp.com/client" }} target="_blank"><div>
-                </div></NavLink>
+                <NavLink className="all-links link" activeClassName="active-link" to={{ pathname: "https://myflixyappy1226.herokuapp.com/client" }} target="_blank"><div></div></NavLink>
                 <div className="git-cat">
-                    <NavLink className="links" activeClassName="active-link" to={{ pathname: "https://github.com/bowlofsunshine/movie_api" }} target="_blank"><img className="img-responsive" src={Gitcat} alt="logo" />
-                    </NavLink></div>
+                    <NavLink className="links" activeClassName="active-link" to={{ pathname: "https://github.com/bowlofsunshine/movie_api" }} target="_blank"><img className="img-responsive" src={Gitcat} alt="logo" /></NavLink>
+                </div>
                 <img className="flix-foto" src={Flix} alt="flix foto" />
             </div>
         )

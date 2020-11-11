@@ -25,10 +25,7 @@ export class Contact extends React.Component {
                         <NavLink className="all-links twitter" activeClassName="active-link" to="/meet"><p>twitter</p></NavLink>
                         <NavLink className="all-links linked" activeClassName="active-link" to="/meet"><p>linkedin</p></NavLink>
                     </div>
-
                 </NavLink>
-
-
             </div>
         )
     }
