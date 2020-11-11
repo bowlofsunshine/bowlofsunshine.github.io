@@ -1,0 +1,1436 @@
+#root {
+  height: 100vh;
+}
+.nameContainer {
+  position: relative;
+  height: 100vh;
+  background-color: #fefefa;
+}
+
+.App-header p {
+  position: absolute;
+    width: 135px;
+    height: 15px;
+    left: 46%;
+    top: 51.5%;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.gradientBG {
+  background: linear-gradient(180deg, #74D984 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #1089FA 0%, rgba(255, 255, 255, 0) 100%), conic-gradient(from 180deg at 50% 50%, rgba(114, 99, 99, 0) 0deg, rgba(52, 14, 192, 0.859375) 50.63deg, #2900CF 302.85deg, rgba(114, 99, 99, 0) 360deg);
+}
+/* name up top */
+.name-header {
+  position: absolute;
+width: 93px;
+height: 29px;
+left: 47.5%;
+    top: 5%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+/* work titles on work page*/
+/*chat*/
+.chatTitle {
+  position: absolute;
+  width: 107px;
+  height: 29px;
+  left: 22%;
+  top: 37%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  flex: 0 0 120px;
+  color: #000000;
+  
+  transition: all .5s ease-in-out;
+}
+.chat-body {
+  position: absolute;
+  color: white;
+  left: 22%;
+  top: 11%;
+  width: 200px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chatTitle:hover {
+  transform: scale(1.1);
+}
+/* meet */
+.meetTitle {
+  position: absolute;
+  width: 139px;
+  height: 29px;
+  left: 9%;
+  top: 20%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  flex: 0 0 120px;
+  transition: all .5s ease-in-out;
+  color: #000000;
+}
+.meetBody {
+  position: absolute;
+  color: white;
+  left: 9%;
+  top: 32%;
+  width: 200px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.meetTitle:hover {
+  transform: scale(1.1);
+}
+/* pokedex  */
+.pokeTitle {
+position: absolute;
+width: 98px;
+height: 29px;
+left: 23.5%;
+top: 29%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+  flex: 0 0 120px;
+transition: all .5s ease-in-out;
+color: #000000;
+}
+.pokeBody {
+  position: absolute;
+  color: white;
+  left: 12.5%;
+top: 53%;
+  width: 200px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pokeTitle:hover {
+  transform: scale(1.1);
+}
+/* netflix */
+.netTitle {
+  position: absolute;
+  width: 216px;
+  height: 29px;
+  left: 6.5%;
+    top: 27%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  flex: 0 0 120px;
+  transition: all .5s ease-in-out;
+  color: #000000;
+}
+.netBody {
+  position: absolute;
+  color: white;
+  left: 22.5%;
+  top: 74%;
+  width: 249px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.netTitle:hover {
+  transform: scale(1.1);
+}
+/* caf */
+.cafTitle {
+  position: absolute;
+width: 284px;
+height: 29px;
+left: 3%;
+    top: 33%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+  flex: 0 0 120px;
+transition: all .5s ease-in-out;
+color: #000000;
+}
+.cafBody {
+  position: absolute;
+  color: white;
+  left: 41%;
+top: 81%;
+  width: 300px;
+  height: 143px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cafTitle:hover {
+  transform: scale(1.1);
+}
+/* visa */
+.visaTitle {
+  position: absolute;
+width: 93px;
+height: 29px;
+left: 28%;
+    top: 29%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+  flex: 0 0 120px;
+transition: all .5s ease-in-out;
+color: #000000;
+}
+.visaBody {
+  position: absolute;
+  color: white;
+  left: 63%;
+    top: 74%;
+  width: 200px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.visaTitle:hover {
+  transform: scale(1.1);
+}
+/* todo */
+.todoTitle {
+  position: absolute;
+width: 105px;
+height: 29px;
+left: 25%;
+    top: 27%;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+transition: all .5s ease-in-out;
+  flex: 0 0 120px;
+}
+.todoBody {
+  position: absolute;
+  color: white;
+  left: 73%;
+    top: 53%;
+  width: 200px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todoTitle:hover {
+  transform: scale(1.1);
+}
+/* quiz */
+.quizTitle {
+  position: absolute;
+width: 175px;
+height: 29px;
+left: 7%;
+    top: 28%;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+  flex: 0 0 120px;
+transition: all .5s ease-in-out;
+}
+.quizBody {
+  position: absolute;
+  color: white;
+  left: 77%;
+    top: 32%;
+  width: 200px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quizTitle:hover {
+  transform: scale(1.1);
+}
+/* myflix */
+.flixTitle{
+  position: absolute;
+  width: 80px;
+  height: 29px;
+  left: 30%;
+    top: 25%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  transition: all .5s ease-in-out;
+  flex: 0 0 120px;
+}
+.flixBody {
+  position: absolute;
+  color: white;
+  left: 64%;
+    top: 11%;
+  width: 200px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flixTitle:hover {
+  transform: scale(1.1);
+}
+
+/* navlinks */
+.allLinks {
+  text-decoration: none;
+  color: black;
+}
+.activeRoute {
+  color: black;
+}
+.activeLink {
+  color: black;
+}
+
+.git-cat{
+  position: absolute;
+  width: 100px;
+  height: 99.59px;
+  left: 36%;
+  top: 70%; 
+  transition: all .5s ease-in-out;
+}
+.git-cat:hover {
+  transform: scale(1.1);
+  /* transition: all .5s ease-in-out; */
+}
+.skills {
+  position: absolute;
+  width: 323px;
+  height: 176px;
+  left: 5%;
+  top: 64%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  
+  color: #000000;
+}
+
+/*home*/
+/* .home{
+  height: 100vh;
+  position: relative;
+background: linear-gradient(180deg, #74D984 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #1089FA 0%, rgba(255, 255, 255, 0) 100%), conic-gradient(from 180deg at 50% 50%, rgba(114, 99, 99, 0) 0deg, rgba(52, 14, 192, 0.859375) 50.63deg, #2900CF 302.85deg, rgba(114, 99, 99, 0) 360deg);
+} */
+.home-header {
+  position: absolute;
+width: 791px;
+height: 65px;
+left: calc(50% - 791px/2 + 0.5px);
+top: calc(50% - 65px/2 - 64.5px);
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 54px;
+
+color: #000000;
+}
+/* chat app*/
+.chat {
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(180deg, #556EF2 0%, rgba(255, 117, 117, 0.3) 100%);
+  }
+.chat-header {
+  position: absolute;
+  width: 213px;
+  height: 58px;
+  left: 11%;
+    top: 5%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+  
+}
+.chat-para {
+  position: absolute;
+  width: 693px;
+  height: 226px;
+  left: 5%;
+  top: 27%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  
+  color: #FFFEFE;
+
+}
+.chat1 {
+  position: absolute;
+width: 272.35px;
+height: 481px;
+left: 59%;
+top: 36%;
+border-radius: 12px;
+}
+.chat2 {
+  position: absolute;
+  width: 273.46px;
+  height: 481px;
+  left: 79%;
+  top: 36%;
+  border-radius: 12px;
+}
+
+/*cotati accordion festival*/
+.caf {
+  height: 100vh;
+  position: relative;
+background: linear-gradient(180deg, rgba(48, 45, 203, 0.69) 0%, rgba(124, 217, 247, 0.45) 100%);
+}
+.caf-header {
+  position: absolute;
+  width: 531px;
+  height: 54px;
+  left: 165px;
+  top: 5%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  
+  color: #000000;
+  
+}
+.caf-para {
+  position: absolute;
+  width: 922px;
+  height: 216px;
+  left: 5%;
+  top: 400px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  
+  color: #000000;
+}
+.caf-headline {
+  position: absolute;
+width: 950px;
+height: 54px;
+left: 5%;
+top: 27%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 54px;
+
+color: #FFFFFF;
+}
+.caf-arrow {
+  position: absolute;
+width: 56px;
+height: 0px;
+left: 47%;
+top: 21% !important;
+}
+/* meetup*/
+.meetup {
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(180deg, rgba(59, 214, 158, 0.99) 40.63%, rgba(210, 240, 229, 0.69) 92.19%);
+}
+.meet-header {
+  position: absolute;
+  width: 304px;
+  height: 54px;
+  left: 5%;
+  top: 5%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  
+  color: #000000;
+}
+.meet-para {
+  position: absolute;
+  width: 1266px;
+  height: 216px;
+  left: 5%;
+  top: 27%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  
+  color: #FFFFFF;
+}
+.meet-foto {
+  position: absolute;
+width: 750px;
+height: 320px;
+left: 663px;
+top: 441px;
+border-radius: 43px;
+}
+/*pokedex*/
+.pokedex {
+  background: linear-gradient(180deg, #FFCF23 0%, rgba(243, 100, 238, 0.2) 100%);
+  position: relative;
+  height: 100vh;
+}
+.poke-header {
+  position: absolute;
+  width: 183px;
+  height: 54px;
+  left: 13%;
+  top: 5%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  
+  color: #000000;
+}
+.poke-para {
+  position: absolute;
+  width: 1217px;
+  height: 162px;
+  left: 5%;
+  top: 27%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  
+  color: #FFFFFF;
+}
+.poke-foto {
+  position: absolute;
+  width: 628px;
+  height: 370px;
+  left: 54%;
+  top: 50%;
+border-radius: 31px;
+}
+/*netflix*/
+.netflix {
+  height: 100vh;
+  position: relative;
+background: linear-gradient(180deg, #F77777 0%, rgba(36, 0, 255, 0.31) 100%);
+}
+.netflix-header {
+  position: absolute;
+  width: 405px;
+  height: 54px;
+  left: 5%;
+  top: 5%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  
+  color: #000000;
+}
+.netflix-para {
+  position: absolute;
+  width: 813px;
+  height: 162px;
+  left: 5%;
+  top: 27%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  
+  color: #FFFFFF;
+}
+/*visa*/
+.visa {
+  height: 100vh;
+  position: relative;
+background: linear-gradient(180deg, #F01212 0%, rgba(247, 205, 124, 0.45) 100%);
+}
+.visa-header {
+  position: absolute;
+  width: 173px;
+  height: 54px;
+  left: 5%;
+  top: 5%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  
+  color: #000000;
+}
+.visa-para {
+  position: absolute;
+  width: 950px;
+  height: 162px;
+  left: 5%;
+  top: 27%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  
+  color: #FFFFFF;
+}
+/*todo*/
+.todo {
+  height: 100vh;
+  position: relative;
+background: linear-gradient(180deg, #D21DE1 0%, rgba(116, 128, 233, 0.59) 100%);
+}
+.todo-header {
+  position: absolute;
+  width: 196px;
+  height: 54px;
+  left: 12%;
+  top: 5%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  
+  color: #000000;
+}
+.todo-para {
+  position: absolute;
+  width: 950px;
+  height: 162px;
+  left: 5%;
+  top: 27%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  
+  color: #FFFFFF;
+}
+.todo-foto {
+  position: absolute;
+width: 675px;
+height: 314px;
+left: 51.5%;
+    top: 56%;
+border-radius: 45px;
+}
+/*quiz*/
+.quiz {
+  height: 100vh;
+  position: relative;
+background: linear-gradient(180deg, rgba(36, 143, 220, 0.98) 0%, rgba(253, 255, 255, 0.65) 100%);
+}
+.quiz-header {
+  position: absolute;
+  width: 205px;
+  height: 54px;
+  left: 12%;
+  top: 5%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  
+  color: #000000;
+}
+.quiz-para {
+  position: absolute;
+  width: 753px;
+  height: 199px;
+  left: 5%;
+  top: 27%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  
+  color: #FFFFFF;
+  
+}
+.quiz1 {
+  position: absolute;
+  width: 393px;
+  height: 275px;
+  left: 47%;
+  top: 61%;
+  border-radius: 32px;
+}
+.quiz2 {
+  position: absolute;
+  width: 415px;
+  height: 275px;
+  left: 70%;
+    top: 61%;
+  border-radius: 35px;
+}
+/*myflix*/ 
+.myflix {
+  height: 100vh;
+  position: relative;
+background: linear-gradient(180deg, #FDA14C 0%, rgba(254, 0, 46, 0.38) 100%);
+}
+.myflix-header {
+  position: absolute;
+  width: 158px;
+  height: 54px;
+  left: 17%;
+  top: 5%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  
+  color: #000000;
+}
+.myflix-para {
+  position: absolute;
+  width: 926px;
+  height: 216px;
+  left: 5%;
+  top: 27%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  
+  color: #FFFEFE;
+}
+.flix-foto {
+  position: absolute;
+  width: 670px;
+  height: 330px;
+left: 52%;
+    top: 55.5%;
+border-radius: 25px;
+}
+/*contact*/
+.contact-head {
+  position: absolute;
+  width: 357px;
+  height: 88px;
+  left: calc(50% - 357px/2 + 0.5px);
+  top: calc(50% - 88px/2);
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  
+  color: #000000;
+}
+.contact-para {
+  position: absolute;
+  width: 242px;
+  height: 29px;
+  left: calc(50% - 242px/2);
+  top: calc(50% - 29px/2 + 68.5px);
+  
+  font-family: Inter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+.github {
+  position: absolute;
+    width: 77px;
+    left: 7%;
+    top: 77%;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 0px;
+    color: #000000;
+}
+.insta {
+  position: absolute;
+  width: 113px;
+  left: 7%;
+    top: 81%;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 0px;
+  
+  color: #000000;
+}
+.medium {
+  position: absolute;
+  width: 113px;
+  left: 7%;
+    top: 85%;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 0px;
+  
+  color: #000000;
+}
+.twitter {
+  position: absolute;
+  width: 113px;
+  left: 7%;
+    top: 89%;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 0px;
+  
+  color: #000000;
+}
+.linked {
+  position: absolute;
+  width: 113px;
+  left: 7%;
+    top: 93%;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 0px;
+  
+  color: #000000;
+}
+/* about */
+.about-about {
+  position: absolute;
+  width: 600px;
+  height: 609px;
+  left: 55%;
+  top: 15%;
+  
+  font-family: Inter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #000000;
+
+}
+.about-hmm{
+  position: absolute;
+  width: 265px;
+  height: 58px;
+  left: 3%;
+  top: 40%;
+  
+  font-family: Inter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #000000;
+}
+.about-skills {
+  position: absolute;
+  width: 655px;
+  height: 319px;
+  left: 3%;
+  top: 50%;
+  
+  font-family: Inter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #000000;
+}
+.about-got {
+  position: absolute;
+  width: 113px;
+  height: 29px;
+  left: 3%;
+  top: 45%;
+  
+  font-family: Inter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+.about-header {
+  position: absolute;
+width: 892px;
+height: 60px;
+left: 3%;
+top: 2%;
+
+font-family: Inter;
+font-style: italic;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+/*arrow*/
+.link {
+  position: absolute;
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  top: 21.7%;
+  right: 71.8%;
+}
+.link:after, .link:before {
+  content: "";
+  display: block;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+.link:before {
+  top: 50%;
+  right: 1em;
+  width: 1em;
+  height: 1em;
+  transform-origin: 50% 50%;
+  transform: translate(0, -0.5em) rotate(45deg);
+  box-shadow: inset -0.2em 0.2em 0 0 black;
+  border-radius: 0 5px 0 0;
+}
+.link:after {
+  top: 50%;
+  right: 1em;
+  width: 56px;
+  height: 0.2em;
+  transform: translate(0, -0.1em);
+  background-color: black;
+}
+.link:hover:before {
+  transform: translate(0.5em, -0.5em) rotate(45deg);
+}
+.link:hover:after {
+  transform: translate(0.5em, -0.1em);
+}
+
+/* nav & hamburger */
+.Navbar__background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10rem;
+  height: 10rem;
+  z-index: 100;
+  background-image: linear-gradient(180deg, rgba(55, 99, 215, 0.93) 0%, rgba(255, 255, 255, 0) 100%);
+  /* transform: scale(0); */
+  opacity: 0;
+}
+.Navbar__background--show {
+   transform: scale(17);
+  /* transition: all 0.5s; */ 
+  opacity: 1;
+}
+.Navbar__toggler {
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+  z-index: 101;
+  outline: none;
+}
+.Navbar__links {
+  position: fixed;
+  top: 17%;
+  left: 94%;
+  transform: translate(0%, -50%);
+  display: none;
+  z-index: 100;
+  justify-content: right;
+  text-align: right;
+}
+.Navbar__links--show {
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  transition: all 0.4s;
+}
+.Navbar__links .ol {
+  list-style: none;
+}
+.Navbar__links .ol .li {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  width: 180px;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+  color: white;
+  animation: bounceShow 1s ease-out;
+  cursor: pointer;
+  position: relative;
+  z-index: 120;
+}
+.Navbar__links .ol .li:hover, .Navbar__links .ol .li:active {
+  /* background: #2c786c; */
+  /* padding-top: 10px; */
+  color: #fff;
+  transition: 0.5s;
+}
+.Navbar__links .ol .li:hover::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  opacity: 0.3;
+  content: "";
+  /* background-color: #f2f2f2; */
+  /* -webkit-clip-path: polygon(78% 0, 100% 0, 0 100%, 0 79%);
+  clip-path: polygon(78% 0, 100% 0, 0 100%, 0 79%); */
+  width: 100%;
+  height: 120%;
+  animation: moveRightLeft 0.5s linear;
+  animation-fill-mode: forwards;
+}
+.Navbar__links .ol .li a {
+  color: inherit;
+  text-decoration: none;
+}
+.makewhite {
+  background-color: #f2f2f2;
+}
+.makewhite::after {
+  background-color: #f2f2f2;
+}
+.makewhite::before {
+  background-color: #f2f2f2;
+}
+/* responsive */
+@media only screen and (max-width: 600px) {
+ .git-cat {
+  left: 62%;
+  top: 23%;
+  width: 60px;
+  height: 60px;
+}
+.skills {
+  font-size: 24px;
+  line-height: normal;
+  top: 12%;
+}
+.link {
+  left: 80%;
+  top:17%;
+}
+/*meet*/
+ .meet-para {
+   width: 450px;
+   font-size: 28px;
+   line-height: normal;
+   top: 32%;
+ }
+ .meet-foto {
+  width: 450px;
+  height: 192px;
+  left: 5%;
+  top: 73%;
+ }
+ .meet-header {
+   top: 0%;
+ }
+ /*chat*/
+.chat-header {
+  top: 0%;
+}
+ .chat-para {
+  width: 450px;
+   font-size: 28px;
+   line-height: normal;
+   top: 32%;
+ }
+ .chat1 {
+  left: 10%;
+  top: 55%;
+  height: 330px;
+  width: 186px;
+ }
+ .chat2 {
+  left: 54%;
+  top: 55%;
+  height: 330px;
+  width: 186px;
+ }
+/*flix*/
+.flix-foto {
+  width: 450px;
+  height: 230px;
+  left: 5%;
+  top: 67%;
+}
+.myflix-header {
+  top: 0%;
+}
+.myflix-para {
+  width: 450px;
+  font-size: 28px;
+  line-height: normal;
+  top: 32%;
+}
+/*net*/
+.netflix-header {
+  top: 0%;
+}
+.netflix-para {
+  width: 450px;
+   font-size: 28px;
+   line-height: normal;
+   top: 32%;
+}
+/*pokedex*/
+.poke-foto {
+  width: 450px;
+  height: 266px;
+  left: 5%;
+  top: 63%;
+}
+.poke-header {
+  top: 0%;
+}
+.poke-para {
+  width: 450px;
+  font-size: 28px;
+  line-height: normal;
+  top: 32%;
+}
+/*quiz*/
+.quiz-header {
+  top: 0%;
+}
+.quiz-para {
+  width: 450px;
+  font-size: 28px;
+  line-height: normal;
+  top: 32%;
+}
+.quiz1 {
+  width: 250px;
+  height: 175px;
+  left: 5%;
+  top: 70%;
+}
+.quiz2 {
+  width: 250px;
+  height: 175px;
+  left: 45%;
+  top: 70%;
+}
+/*todo*/
+.todo-foto {
+  width: 450px;
+  height: 215px;
+  left: 5%;
+  top: 68%;
+}
+.todo-header {
+  top: 0%;
+}
+.todo-para {
+  width: 450px;
+  font-size: 28px;
+  line-height: normal;
+  top: 32%;
+}
+/*visa*/
+.visa-header {
+ top: 0%;
+}
+.visa-para {
+  width: 450px;
+  font-size: 28px;
+  line-height: normal;
+  top: 32%;
+}
+/*caf*/
+.caf-header {
+top: 5%;
+left: 5%;
+font-size: 36px;
+}
+.caf-arrow {
+  left: 70%;
+  top:17%;
+}
+.caf-para {
+  width: 450px;
+  font-size: 28px;
+  line-height: normal;
+  top: 42%;
+}
+.caf-headline {
+  width: 450px;
+  font-size: 28px;
+  line-height: normal;
+  top: 32%;
+}
+/* about */
+/* .about-about {
+  width: 95%;
+  font-size: 16px;
+ top: 30%;
+ left: 3%;
+ line-height: normal;
+ }
+ .about-header {
+   width: 100%;
+   top: 5%;
+ }
+ .about-skills {
+   width: 100%;
+   top: 90%;
+   font-size: 16px;
+   line-height: normal;
+ }
+ .about-hmm {
+   width: 100%;
+   top: 80%;
+ }
+ .about-got {
+   width: 100%;
+   top: 84%;
+ } */
+}
+@media only screen and (max-width: 900px) {
+  /* navy */
+  .Navbar__links .ol .li {
+    font-size: 2.6rem;
+    margin-bottom: 0.5rem;
+    right:40%;
+ }
+ .Navbar__links {
+  font-size: 24px;
+  top: 20%;
+  }
+  /* about */
+  .about-about {
+    width: 95%;
+    font-size: 16px;
+   top: 30%;
+   left: 3%;
+   line-height: normal;
+   }
+   .about-header {
+     width: 90%;
+     top: 5%;
+   }
+   .about-skills {
+     width: 100%;
+     top: 90%;
+     font-size: 16px;
+     line-height: normal;
+   }
+   .about-hmm {
+     width: 100%;
+     top: 80%;
+   }
+   .about-got {
+     width: 100%;
+     top: 84%;
+   }
+   .name-header {
+    left: 42%;
+  }
+   .App-header p {
+    left: 38%;
+    top: 40%;
+  }
+   /* work titles */
+   .meetBody {
+    left: 10%;
+    top: 58.6%;
+    width: auto;
+  }
+  .chat-body {
+    left: 10%;
+    top: 47%;
+    width: auto;
+  }
+  .cafBody{
+    left: 10%;
+    top: 67.5%;
+    width: auto;
+  }
+  .visaBody {
+    left: 10%;
+    top: 77.5%;
+    width: auto;
+  }
+  .todoBody {
+    left: 78%;
+    top: 68%;
+    width: auto;
+  }
+  .quizBody {
+    left: 55%;
+    top: 57%;
+    width: auto;
+  }
+  .pokeBody {
+    left: 70.5%;
+    top: 45.4%;
+    width: auto;
+  }
+  .netBody {
+    left: 47%;
+    top: 78%;
+    width: auto;
+  }
+  .flixBody {
+    left: 40%;
+    top: 46.4%;
+    width: auto;
+  }
+}
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.projects {
+  position: absolute;
+width: 173px;
+height: 54px;
+left: calc(50% - 173px/2 + 0.5px);
+top: calc(50% - 54px/2 - 26px);
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 54px;
+
+color: #000000;
+}
