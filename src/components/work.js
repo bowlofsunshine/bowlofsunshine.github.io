@@ -9,7 +9,7 @@ import Open from './open.js';
 import Meetup from './meet.js';
 import App from '../App.js';
 import Contact from './contact.js';
-import Navbar from './navbar';
+import Navi from './navigation.js'
 
 import Ripples from 'react-ripples'
 
@@ -22,7 +22,7 @@ export class Work extends React.Component {
                 <header className="name-header black-name" id="rachel">
                     Projects
                 </header>
-                <Navbar />
+                <Navi />
                 <div className="body-work">
                     <header className="App-header">
                         <p>Hey, my name is Rachel</p>

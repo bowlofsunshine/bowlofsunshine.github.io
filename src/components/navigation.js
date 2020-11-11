@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Router, Link, Switch, NavLink } from "react-route
 import '../App.css';
 import './hamburgers.css';
 
-class Navbar extends Component {
+class Navi extends Component {
     constructor(props) {
         super(props);
 
@@ -61,4 +61,4 @@ class Navbar extends Component {
     }
 }
 
-export default Navbar;
+export default Navi;

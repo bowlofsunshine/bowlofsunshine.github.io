@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Router, Link, NavLink, Switch } from "react-route
 import { Container } from 'react-bootstrap';
 import { useHistory } from 'react-router-dom';
 import Work from './work.js';
-import Navbar from './navbar';
+import Navi from './navigation.js'
 import Gitcat from '../images/github.png';
 import TodoFoto from '../images/todo.png';
 
@@ -16,7 +16,7 @@ export class Todo extends React.Component {
         return (
 
             <div >
-                <Navbar />
+                <Navi />
                 <NavLink className="all-links" activeClassName="active-route" to={`/`}>
                     <div className="todo">
                         <h3 className="todo-header">Todo List</h3>
