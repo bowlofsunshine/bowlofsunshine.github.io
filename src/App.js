@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import './components/hamburgers.css';
 
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
-import { BrowserRouter, Route, Router, Link, Switch, withRouter } from "react-router-dom";
+import { BrowserRouter, Route, Switch, withRouter } from "react-router-dom";
 
 import Work from './components/work.js';
 import Open from './components/open.js';
@@ -21,8 +20,6 @@ import Netflix from './components/net.js';
 import Myflix from './components/myflix.js';
 import Caf from './components/caf.js';
 import Contact from './components/contact.js';
-
-import styled from "styled-components";
 
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 

@@ -2,9 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App.js';
-import Chat from './components/chat.js';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter, BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { Route, Switch } from 'react-router';
 
 

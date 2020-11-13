@@ -1,12 +1,10 @@
 import React from 'react';
 import '../App.css';
-import Button from 'react-bootstrap/Button'
-import { BrowserRouter, Route, Router, Link, NavLink, Switch } from "react-router-dom";
-import { Container } from 'react-bootstrap';
-import Work from './work.js';
+import { NavLink } from "react-router-dom";
 import Navi from './navigation.js'
 import Gitcat from '../images/github.png';
 import Meet from '../images/meetup.png'
+
 export class Meetup extends React.Component {
     render() {
         return (

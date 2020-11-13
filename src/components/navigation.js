@@ -1,7 +1,6 @@
-
 import React, { Component } from "react";
 import { ListGroup } from "react-bootstrap";
-import { BrowserRouter, Route, Router, Link, Switch, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import '../App.css';
 import './hamburgers.css';
 
