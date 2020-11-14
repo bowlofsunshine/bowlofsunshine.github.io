@@ -1,17 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import '../App.css';
-import Button from 'react-bootstrap/Button'
-import { BrowserRouter, Route, Router, Link, Switch } from "react-router-dom";
-import HamburgerMenu from 'react-hamburger-menu';
-import Chat from './chat.js';
-import Open from './open.js';
-import Meetup from './meet.js';
-import App from '../App.js';
-import Contact from './contact.js';
-import Navi from './navigation.js'
-
-import Ripples from 'react-ripples'
+import { Link } from "react-router-dom";
+import Navi from './navigation.js';
 
 
 export class Work extends React.Component {

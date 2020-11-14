@@ -1,7 +1,5 @@
 import React from 'react';
 import '../App.css';
-import App from '../App.js';
-import Container from 'react-bootstrap/Container';
 
 export class Open extends React.Component {
 
