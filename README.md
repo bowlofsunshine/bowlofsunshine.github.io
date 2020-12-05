@@ -2,6 +2,14 @@
 ---
 permalink: /index.html
 ---
+## How to build & push portfolio
+1. Make all the changes you need in normal react code or w.e
+2. Run npm build
+3. Remove old docs directory. Rename build directory to docs
+4. open terminal
+5. make sure you're on gh-pages branch. run: git checkout gh-pages
+6. git add, commit
+7. git push origin gh-pages
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
