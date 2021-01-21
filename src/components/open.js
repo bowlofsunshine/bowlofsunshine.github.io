@@ -5,9 +5,9 @@ export class Open extends React.Component {
 
     render() {
         return (
-            <header className="App-header">
+            <div className="App-header">
                 <p>    Hey, my name is Rachel</p>
-            </header>
+            </div>
         )
     }
 }

@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import '../node_modules/video-react/dist/video-react.css';
 import App from './App.js';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Route, Switch } from 'react-router';
+import { gsap } from 'gsap';
 
 
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 ReactDOM.render(
   <React.StrictMode>

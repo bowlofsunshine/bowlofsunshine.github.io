@@ -20,6 +20,7 @@ import Netflix from './components/net.js';
 import Myflix from './components/myflix.js';
 import Caf from './components/caf.js';
 import Contact from './components/contact.js';
+import ChatArrow from './components/chatArrow.js';
 
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
@@ -49,6 +50,7 @@ class App extends React.Component {
               key={location.key} timeout={300} classNames="fade"
             >
               <Switch location={location}>
+                <Route path="/chatArrow" component={ChatArrow} />
                 <Route path="/work" component={Work} />
                 <Route path="/about" component={aboutChat} />
                 <Route path="/contact" component={Contact} />

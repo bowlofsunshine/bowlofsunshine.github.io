@@ -15,7 +15,7 @@ export class Chat extends React.Component {
                     <div className="chat" >
                         <h3 className="chat-header">Chat App</h3>
                         <p className="chat-para">React Native Chat App for IOS/Android where you can send messages, photos and share your location with others.</p>
-                        <NavLink className="all-links link" activeClassName="activeLink" to="/meet"><div></div></NavLink>
+                        <NavLink className="all-links link" activeClassName="activeLink" to="/chatArrow"><div></div></NavLink>
                     </div>
                     <div className="skills"><p>
                         React Native <br></br>
