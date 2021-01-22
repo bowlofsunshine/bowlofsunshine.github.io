@@ -100,15 +100,16 @@ svg {
     line-height: 3;
     /* identical to box height */
     
-    animation: squiggly-anim 0.45s linear infinite;
+    animation: squiggly-anim 0.60s linear infinite;
     color: #000000;
 }
+
 /* name up top */
 .name-header {
   position: absolute;
 width: 170px;
 height: 32px;
-left: 46%;
+left: 44%;
     top: 5%;
 
 font-family: Inter;
@@ -119,15 +120,18 @@ line-height: 29px;
 /* identical to box height */
 /* text-transform: uppercase; */
 font-weight: bold;
-background-color: #f3ec78;
+/* background-color: #f3ec78;
     background-image: linear-gradient(45deg, #30CFD0 0%, #330867 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; */
   
 }
+
+
+
 
 svg {
 	height: 0;
@@ -172,7 +176,8 @@ svg {
   align-items: center;
 }
 .chat-title:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
+  animation: squiggly-anim 0.60s linear infinite;
 }
 /* meet */
 .meet-title {
@@ -204,7 +209,8 @@ svg {
   align-items: center;
 }
 .meet-title:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
+  animation: squiggly-anim 0.60s linear infinite;
 }
 /* pokedex  */
 .poke-title {
@@ -236,7 +242,8 @@ top: 53%;
   align-items: center;
 }
 .poke-title:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
+  animation: squiggly-anim 0.60s linear infinite;
 }
 /* netflix */
 .net-title {
@@ -268,7 +275,8 @@ top: 53%;
   align-items: center;
 }
 .net-title:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
+  animation: squiggly-anim 0.60s linear infinite;
 }
 /* caf */
 .caf-title {
@@ -300,7 +308,8 @@ top: 81%;
   align-items: center;
 }
 .caf-title:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
+  animation: squiggly-anim 0.60s linear infinite;
 }
 /* visa */
 .visa-title {
@@ -332,7 +341,8 @@ color: #000000;
   align-items: center;
 }
 .visa-title:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
+  animation: squiggly-anim 0.60s linear infinite;
 }
 /* todo */
 .todo-title {
@@ -362,7 +372,8 @@ transition: all .5s ease-in-out;
   align-items: center;
 }
 .todo-title:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
+  animation: squiggly-anim 0.60s linear infinite;
 }
 /* quiz */
 .quiz-title {
@@ -392,7 +403,8 @@ transition: all .5s ease-in-out;
   align-items: center;
 }
 .quiz-title:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
+  animation: squiggly-anim 0.60s linear infinite;
 }
 /* myflix */
 .flix-title{
@@ -422,7 +434,8 @@ transition: all .5s ease-in-out;
   align-items: center;
 }
 .flix-title:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
+  animation: squiggly-anim 0.60s linear infinite;
 }
 
 /* navlinks */

@@ -8,13 +8,15 @@ import Navi from './navigation.js';
 export class Work extends React.Component {
 
     render() {
+
         return (
 
             <div className="work-container">
                 <header className="name-header">
-                    Projects??
+                    <div>Projects?</div>
+                    <div>Projects??</div>
+                    <div>Projects?</div>
                 </header>
-
                 <Navi />
 
                 <div className="body-work">
@@ -33,7 +35,7 @@ export class Work extends React.Component {
 
                     <Link to="/visa"><div className="visa-body"><p className="visa-title">Visa 101</p></div></Link>
 
-                    <Link to="/todo"><div className="todo-body"><p className="todo-title">Todo</p></div></Link>
+                    <Link to="/todo"><div className="todo-body"><p className="todo-title">Todo List</p></div></Link>
 
                     <Link to="/quiz"><div className="quiz-body"><p className="quiz-title">Quick Quiz App</p></div></Link>
 
