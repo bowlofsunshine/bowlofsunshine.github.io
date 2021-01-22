@@ -2,8 +2,8 @@ import React from 'react';
 import '../App.css';
 import { Link } from "react-router-dom";
 import Navi from './navigation.js';
-import { gsap } from "gsap";
-import { TimelineLite } from "gsap";
+// import { gsap } from "gsap";
+// import { TimelineLite } from "gsap";
 
 export class Work extends React.Component {
 

@@ -2,10 +2,6 @@ import React from 'react';
 import '../App.css';
 import { NavLink } from "react-router-dom";
 import Navi from './navigation.js'
-import Gitcat from '../images/github.png';
-import Chat1 from '../images/chatapp1.png';
-import Chat2 from '../images/chatapp2.png';
-import { Player } from 'video-react';
 import Video from './video.js';
 
 export class ChatArrow extends React.Component {
