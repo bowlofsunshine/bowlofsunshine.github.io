@@ -1267,6 +1267,44 @@ color: #000000;
 }
 /* responsive */
 @media only screen and (max-width: 600px) {
+   /* about */
+   .about-about {
+    width: 90% !important;
+    font-size: 16px;
+    top: 36% !important;
+    left: 5% !important;
+    line-height: normal;
+   }
+   .about-header {
+     width: 90% !important;
+     top: 5% !important;
+     left: 5% !important;
+   }
+   .about-skills {
+     width: 100%;
+     top: 98% !important;
+     font-size: 16px;
+     left: 5% !important;
+     line-height: normal;
+   }
+   .about-hmm {
+     width: 100%;
+     left: 5% !important;
+     top: 88% !important;
+   }
+   .about-got {
+     width: 100%;
+     left: 5% !important;
+     top: 92% !important;
+   }
+
+  .navbar-links .ol .li {
+    left: -51%;
+    top: 11px;
+  }
+  .name-header {
+    left: 10%;
+  }
  .git-cat {
   left: 62%;
   top: 23%;
@@ -1460,15 +1498,22 @@ font-size: 36px;
  } */
 }
 @media only screen and (max-width: 900px) {
+
   /* navy */
-  .Navbar__links .ol .li {
+  /* .Navbar__links .ol .li {
     font-size: 2.6rem;
     margin-bottom: 0.5rem;
     right:40%;
- }
+  }
+
  .Navbar__links {
   font-size: 24px;
   top: 20%;
+  } */
+
+  .navbar-links .ol .li {
+    left: -51%;
+    top: 11px;
   }
   /* about */
   .about-about {
@@ -1497,7 +1542,7 @@ font-size: 36px;
      top: 84%;
    }
    .name-header {
-    left: 42%;
+    left: 10%;
   }
    .App-header p {
     left: 38%;
@@ -1525,7 +1570,7 @@ font-size: 36px;
     width: auto;
   }
   .todo-body {
-    left: 78%;
+    left: 75%;
     top: 68%;
     width: auto;
   }
