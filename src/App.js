@@ -21,6 +21,7 @@ import Myflix from './components/myflix.js';
 import Caf from './components/caf.js';
 import Contact from './components/contact.js';
 import ChatArrow from './components/chatArrow.js';
+import TodoCS from './components/todo-more.js';
 
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
@@ -63,6 +64,7 @@ class App extends React.Component {
                 <Route path="/quiz" component={Quiz} />
                 <Route path="/todo" component={Todo} />
                 <Route path="/visa" component={Visa} />
+                <Route path="/todo-more" component={TodoCS} />
                 <div>
                   <Container className="name-container" onClick={() => this.setState({ showing: !showing })} />
                   {showing

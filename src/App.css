@@ -462,6 +462,33 @@ transition: all .5s ease-in-out;
   transform: scale(1.1);
   /* transition: all .5s ease-in-out; */
 }
+.git-cat-todo{
+  position: absolute;
+  width: 100px;
+  height: 99.59px;
+  left: 32%;
+  top: 70%; 
+  transition: all .5s ease-in-out;
+}
+.git-cat-todo:hover {
+  transform: scale(1.1);
+  /* transition: all .5s ease-in-out; */
+}
+.case-study{
+  position: absolute;
+  width: 100px;
+  height: 99.59px;
+  left: 40%;
+  top: 70%; 
+  transition: all .5s ease-in-out;
+}
+.case-study:hover {
+  transform: scale(1.1);
+  /* transition: all .5s ease-in-out; */
+}
+
+
+
 .skills {
   position: absolute;
   width: 323px;
@@ -477,6 +504,396 @@ transition: all .5s ease-in-out;
   
   color: #000000;
 }
+
+/*todo case study*/
+.todo-more {
+  height: 1400px;
+  position: relative;
+  background: linear-gradient(180deg, rgba(210, 29, 225, 0.9) 0%, rgba(116, 128, 233, 0.531) 100%);
+}
+.todo-more-header{
+position: absolute;
+width: 261px;
+height: 48px;
+left: 589px;
+top: 0;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+
+color: #FFFFFF;
+}
+.overview-headline {
+  position: absolute;
+  width: 107px;
+  height: 29px;
+  left: 2%;
+  top: 8%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+.overview-para{
+  position: absolute;
+  width: 272px;
+  height: 95px;
+  left: 3%;
+  top: 11%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #000000;
+
+}
+.pnc-headline {
+  position: absolute;
+  width: 213px;
+  height: 29px;
+  left: 2%;
+  top: 19%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+  
+}
+.pnc-para {
+  position: absolute;
+  width: 370px;
+  height: 57px;
+  left: 3%;
+  top: 22%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #000000;
+}
+.objective-headline {
+  position: absolute;
+  width: 318px;
+  height: 29px;
+  left: 30%;
+    top: 8%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+.objective-para {
+  position: absolute;
+  width: 413px;
+  height: 114px;
+  left: 31%;
+  top: 11%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #000000;
+  
+  
+}
+.duration-headline {
+  position: absolute;
+  width: 97px;
+  height: 29px;
+  left: 30%;
+  top: 19%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+.duration-para {
+  position: absolute;
+  width: 387px;
+  height: 38px;
+  left: 31%;
+  top: 22%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #000000;
+}
+.approach-headline {
+  position: absolute;
+  width: 165px;
+  height: 44px;
+  left: 2%;
+  top: 27.5%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+  
+}
+.approach-line {
+  position: absolute;
+width: 800px;
+height: 0px;
+left: 2%;
+top: 33%;
+
+border: 1px solid #FFFFFF;
+}
+.server-headline {
+  position: absolute;
+  width: 135px;
+  height: 29px;
+  left: 3%;
+  top: 33%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+.server-para1 {
+  position: absolute;
+width: 1008px;
+height: 76px;
+left: 14%;
+    top: 34%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+  
+}
+.server-para2 {
+  position: absolute;
+width: 709px;
+height: 38px;
+left: 40%;
+top: 41%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+.server-para3 {
+  position: absolute;
+width: 709px;
+height: 38px;
+left: 40%;
+    top: 45%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+.server-para4 {
+  position: absolute;
+width: 709px;
+height: 38px;
+left: 40%;
+top: 49%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+.server-para5 {
+  position: absolute;
+width: 750px;
+height: 38px;
+left: 40%;
+top: 53%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+.client-headline {
+  position: absolute;
+  width: 238px;
+  height: 41px;
+  left: 3%;
+    top: 58%;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  
+  color: #000000;
+}
+.client-para {
+  position: absolute;
+width: 558px;
+height: 247px;
+left: 5%;
+    top: 61%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+.chall-headline {
+  position: absolute;
+width: 142px;
+height: 41px;
+left: 3%;
+top: 74%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+.chall-para {
+  position: absolute;
+width: 556px;
+height: 83px;
+left: 5%;
+    top: 77%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+.tools-headline {
+  position: absolute;
+width: 247px;
+height: 41px;
+left: 3%;
+top: 86%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+.tools-para{
+  position: absolute;
+width: 187px;
+height: 54px;
+left: 5%;
+    top: 89%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+}
+/*todo-more images*/
+.todo1 {
+  position: absolute;
+  width: 498px;
+  height: 322px;
+  left: 63%;
+  top: 10%;
+}
+.todo2 {
+  position: absolute;
+  width: 509px;
+  height: 219px;
+
+  left: 3%;
+  top: 42%;
+
+}
+.todo3 {
+  position: absolute;
+  width: 725px;
+  height: 457px;
+  left: 48%;
+    top: 62%;
+  
+}
+
 
 /*home*/
 /* .home{
@@ -504,7 +921,8 @@ color: #000000;
   height: 100vh;
   position: relative;
   background: linear-gradient(180deg, #556EF2 0%, rgba(255, 117, 117, 0.3) 100%);
-  }
+}
+
 .chat-header {
   position: absolute;
   width: 213px;
@@ -1310,6 +1728,12 @@ color: #000000;
   top: 23%;
   width: 60px;
   height: 60px;
+}
+.git-cat-todo {
+  left: 439px;
+  top: 504px;
+  width: 100px;
+  height: 99.59px;
 }
 .skills {
   font-size: 24px;

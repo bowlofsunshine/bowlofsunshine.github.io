@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.eccf5aaf.chunk.css",
-    "main.js": "/static/js/main.994fcda5.chunk.js",
-    "main.js.map": "/static/js/main.994fcda5.chunk.js.map",
+    "main.css": "/static/css/main.2f7c7c5b.chunk.css",
+    "main.js": "/static/js/main.94b8b098.chunk.js",
+    "main.js.map": "/static/js/main.94b8b098.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0a69e1a2.js",
     "runtime-main.js.map": "/static/js/runtime-main.0a69e1a2.js.map",
     "static/css/2.a5277431.chunk.css": "/static/css/2.a5277431.chunk.css",
-    "static/js/2.d1985598.chunk.js": "/static/js/2.d1985598.chunk.js",
-    "static/js/2.d1985598.chunk.js.map": "/static/js/2.d1985598.chunk.js.map",
+    "static/js/2.2ff378f2.chunk.js": "/static/js/2.2ff378f2.chunk.js",
+    "static/js/2.2ff378f2.chunk.js.map": "/static/js/2.2ff378f2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dc3608455a2acaf521d6dbf4d3cd3179.js": "/precache-manifest.dc3608455a2acaf521d6dbf4d3cd3179.js",
+    "precache-manifest.91fd2eeb04c6b3cf3132314dc3a1ff5b.js": "/precache-manifest.91fd2eeb04c6b3cf3132314dc3a1ff5b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a5277431.chunk.css.map": "/static/css/2.a5277431.chunk.css.map",
-    "static/css/main.eccf5aaf.chunk.css.map": "/static/css/main.eccf5aaf.chunk.css.map",
-    "static/js/2.d1985598.chunk.js.LICENSE.txt": "/static/js/2.d1985598.chunk.js.LICENSE.txt",
+    "static/css/main.2f7c7c5b.chunk.css.map": "/static/css/main.2f7c7c5b.chunk.css.map",
+    "static/js/2.2ff378f2.chunk.js.LICENSE.txt": "/static/js/2.2ff378f2.chunk.js.LICENSE.txt",
+    "static/media/casestudy.png": "/static/media/casestudy.b3af962f.png",
     "static/media/chatapp1.png": "/static/media/chatapp1.81728bd9.png",
     "static/media/chatapp2.png": "/static/media/chatapp2.47ebd66d.png",
     "static/media/flix.png": "/static/media/flix.d7d6727e.png",
@@ -22,13 +23,16 @@
     "static/media/pokedex.png": "/static/media/pokedex.2ef80ec0.png",
     "static/media/quiz1.png": "/static/media/quiz1.2978ab6d.png",
     "static/media/quiz2.png": "/static/media/quiz2.9175687f.png",
-    "static/media/todo.png": "/static/media/todo.e54b2c4d.png"
+    "static/media/todo.png": "/static/media/todo.e54b2c4d.png",
+    "static/media/todo1.png": "/static/media/todo1.a2f00d9a.png",
+    "static/media/todo2.png": "/static/media/todo2.88e65142.png",
+    "static/media/todo3.png": "/static/media/todo3.373f363b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0a69e1a2.js",
     "static/css/2.a5277431.chunk.css",
-    "static/js/2.d1985598.chunk.js",
-    "static/css/main.eccf5aaf.chunk.css",
-    "static/js/main.994fcda5.chunk.js"
+    "static/js/2.2ff378f2.chunk.js",
+    "static/css/main.2f7c7c5b.chunk.css",
+    "static/js/main.94b8b098.chunk.js"
   ]
 }
