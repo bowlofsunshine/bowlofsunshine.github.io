@@ -51,7 +51,7 @@ class Navi extends Component {
                             <NavLink to="/contact" className="li all-links" onClick={this.handleToggleClick}>contact</NavLink>
                         </ListGroup.Item>
                         <ListGroup.Item>
-                            <NavLink to={{ pathname: "https://www.github.com" }} className="li all-links" target="_blank" onClick={this.handleToggleClick}>github</NavLink>
+                            <NavLink to={{ pathname: "https://www.github.com/bowlofsunshine" }} className="li all-links" target="_blank" onClick={this.handleToggleClick}>github</NavLink>
                         </ListGroup.Item>
                     </ListGroup>
                 </div>

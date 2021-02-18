@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css';
-import { NavLink } from "react-router-dom";
 import Navi from './navigation.js'
 import Todo1 from '../images/todo1.png';
 import Todo2 from '../images/todo2.png';
